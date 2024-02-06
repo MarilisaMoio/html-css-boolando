@@ -29,6 +29,10 @@
 .col-g1half{
     flex-grow: 1.5;
 }
+
+.col-33{
+    width: calc(100% / 3);
+}
 /* #endregion */
 
 /* #region GENERAL */
@@ -73,5 +77,102 @@ header li{
 
 .Logo{
     max-width: 120px;
+}
+/* #endregion */
+
+/* region MAIN */
+main{
+    padding: 20px 0px;
+}
+
+main .col-33{
+    margin: 0px 6px;
+}
+
+main .row{
+    margin: 20px 0px;
+}
+
+main img{
+    max-width: 100%;
+}
+
+.brand{
+    font-size: small;
+}
+
+.price{
+    font-size: smaller;
+    font-weight: 600;
+    color: red;
+}
+
+.price > span{
+    color: black;
+    text-decoration: line-through;
+    font-weight: 100;
+}
+
+.card{
+    position: relative;
+}
+
+.figtags{
+    position: relative;
+}
+
+.info{
+    margin-top: 2px;
+}
+
+/* heart */
+.save{
+    position: absolute;
+    top: 7%;
+    right: 0px;
+    background-color: white;
+    padding: 8px;
+}
+
+.save:hover > i{
+    color: red;
+    transition: 0.3s;
+}
+
+/* img hover */
+.hov2{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+.card:hover .hov2{
+    z-index: 1;
+}
+
+.save, .tags{
+    z-index: 10;
+}
+
+/* tags */
+.tags{
+    position: absolute;
+    bottom: 10%;
+}
+
+.tag{
+    font-size: smaller;
+    color: white;
+    font-weight: bold;
+    padding: 5px 8px;
+}
+
+.discount{
+    background-color: red;
+}
+
+.sust{
+    background-color: #008000;
 }
 /* #endregion */
