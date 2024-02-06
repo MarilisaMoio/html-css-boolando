@@ -31,7 +31,7 @@
 }
 
 .col-33{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
 }
 /* #endregion */
 
@@ -42,7 +42,7 @@ body{
 
 li{
     list-style: none;
-    margin: 5px;
+    margin-right: 10px;
 }
 
 li:hover{
@@ -51,6 +51,10 @@ li:hover{
 
 ul{
     display: flex;
+}
+
+i{
+    cursor: pointer;
 }
 /* #endregion */
 
@@ -67,6 +71,10 @@ header .row{
     justify-content: space-between;
 }
 
+header img{
+    vertical-align: middle;
+}
+
 .user-util{
     text-align: end;
 }
@@ -78,19 +86,20 @@ header li{
 .Logo{
     max-width: 120px;
 }
+
+header i{
+    margin: 0px 4px;
+}
 /* #endregion */
 
-/* region MAIN */
+/* #region MAIN */
 main{
-    padding: 20px 0px;
-}
-
-main .col-33{
-    margin: 0px 6px;
+    padding: 5px 0px;
 }
 
 main .row{
     margin: 20px 0px;
+    justify-content: space-between;
 }
 
 main img{
@@ -180,4 +189,33 @@ main img{
 .sust{
     background-color: #008000;
 }
-/* #endregion che non funziona se ci sono altri commenti di mezzo ma va bene */
+/* #endregion */
+
+/* #region FOOTER */
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    padding: 20px 0px;
+}
+
+footer li{
+    font-size: 14px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+footer .row{
+    justify-content: space-between;
+}
+
+.find-us{
+    text-align: end;
+}
+
+footer i{
+    margin-top: 6px;
+    font-size: 20px;
+}
+
