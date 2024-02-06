@@ -113,6 +113,11 @@ main img{
     font-weight: 100;
 }
 
+.notdisc{
+    color: black;
+    /* il prezzo non scontato rosso non mi piace ♥ */
+}
+
 .card{
     position: relative;
 }
@@ -175,4 +180,4 @@ main img{
 .sust{
     background-color: #008000;
 }
-/* #endregion */
+/* #endregion che non funziona se ci sono altri commenti di mezzo ma va bene */
