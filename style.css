@@ -64,6 +64,9 @@ header{
     color: white;
     padding: 14px 0px;
     box-shadow: 0px 1px 3px black;
+    position: sticky; 
+    top: 0%;
+    z-index: 100;
 }
 
 header .row{
